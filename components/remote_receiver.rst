@@ -274,6 +274,8 @@ Remote code selection (exactly one of these has to be included):
 
   - **data** (**Required**, string): The code to listen for, see :ref:`remote_transmitter-transmit_raw`
     for more info. Usually you only need to copy this directly from the dumper output.
+  - **delta** (**Optional**, integer): The allowed delta between the specified code and the received
+    code. This allows you to manually correct receiving IR code from a 'sloppy' IR remote control.
 
 - **raw**: Trigger on a raw remote code with the given code.
 
